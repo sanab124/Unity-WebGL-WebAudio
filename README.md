@@ -66,12 +66,12 @@ This plugin provides:
 
 ## 📱 Browser Compatibility
 
-| Browser | Desktop | Mobile | Notes |
-|---------|---------|--------|-------|
-| Chrome | ✅ | ✅ | Full support |
-| Firefox | ✅ | ✅ | Full support |
-| Safari | ✅ | ✅ | Optimized for iOS limitations |
-| Edge | ✅ | ✅ | Full support |
+| Browser | Desktop | Mobile |
+|---------|---------|--------|
+| Chrome | ✅ | ✅ |
+| Firefox | ✅ | ✅ |
+| Safari | ✅ | ✅ |
+| Edge | ✅ | ✅ |
 
 ## 🛠️ Technical Details
 
