@@ -95,15 +95,6 @@ void Start()
 - **CPU Impact**: Event-driven, no polling
 - **Audio Latency**: No additional latency introduced
 
-### Debug Mode
-The plugin outputs detailed console logs prefixed with "AudioContext". Enable browser developer tools to monitor:
-```javascript
-// Example console output
-AudioContext recreated successfully
-Audio suspended on hidden  
-Audio resumed on visible
-```
-
 ## 📄 API Reference
 
 ### C# Component
@@ -121,25 +112,6 @@ public class BrowserWEBAudio : MonoBehaviour
 InitBrowserWEBAudio()    // Main initialization
 recreateAudioContext()   // Emergency recovery function
 ```
-
-## 🔄 Version History
-
-### v1.0.0 (Current)
-- Initial release
-- Full AudioContext lifecycle management
-- Mobile optimization
-- Error recovery system
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Test thoroughly on multiple browsers and devices
-4. Commit changes (`git commit -m 'Add amazing feature'`)
-5. Push to branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
 
 ## 📝 License
 
